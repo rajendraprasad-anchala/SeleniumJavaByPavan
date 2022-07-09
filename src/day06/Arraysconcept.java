@@ -15,26 +15,26 @@ public class Arraysconcept {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		int a [] = { 1,2,3,4,5,6};
+		int a1 [] = { 1,2,3,4,5,6};
 		
-//		for (int i =0 ; i< a.length ;i++) {
-//			System.out.println(a[i]);
-//		}
+		for (int i =0 ; i< a1.length ;i++) {
+			System.out.println(a1[i]);
+		}
 		
-//		for (int i:a) {
-//			System.out.println(i);
-//		}
+		for (int i:a1) {
+			System.out.println(i);
+		}
 		
 		int a[][] = {{1,2},{3,4},{5,6}};
 		
-//		for (int i=0; i< a.length ;i++) {
-//			for (int j =0; j<a[i].length ; j++) {
-//			System.out.print(a[i][j]+",");
-//		}
-//			System.out.println();
-//		
-//		}
-
+		for (int i=0; i< a.length ;i++) {
+			for (int j =0; j<a[i].length ; j++) {
+			System.out.print(a[i][j]+",");
+		}
+			System.out.println();
+		
+		}
+		System.out.println(a.length);
 		
 		for ( int i[]:a) {
 			for (int j:i) {
